@@ -1,9 +1,9 @@
 {
     "name": "terminee",
     "displayName": "terminee",
-    "description": "A terminal nee-jan to help you with terminals.",
-    "version": "0.1.0",
-    "publisher": "jackjiajuehuang",
+    "description": "A terminal nee-san to help you with terminals.",
+    "version": "0.1.1",
+    "publisher": "JackKCWong",
     "engines": {
         "vscode": "^1.23.0"
     },
@@ -11,47 +11,41 @@
         "Other"
     ],
     "activationEvents": [
-        "onCommand:terminee.sendTo1",
-        "onCommand:terminee.sendTo2",
-        "onCommand:terminee.sendTo3",
-        "onCommand:terminee.sendTo4",
-        "onCommand:terminee.sendTo5"
+        "onCommand:terminee.sendToAsuna",
+        "onCommand:terminee.sendToBalalaika",
+        "onCommand:terminee.sendToCammie",
+        "onCommand:terminee.sendToDaresu",
+        "onCommand:terminee.sendToFreya"
     ],
     "main": "./out/extension",
     "contributes": {
-        "commands": [
-            {
-                "command": "terminee.sendTo1",
-                "title": "terminee: Send command to terminal 1"
-            }
-        ],
         "keybindings":[
             {
-                "command": "terminee.sendTo1",
+                "command": "terminee.sendToAsuna",
                 "key": "ctrl+1",
                 "linux": "ctrl+1",
                 "when": "editorTextFocus"
             },
             {
-                "command": "terminee.sendTo2",
+                "command": "terminee.sendToBalalaika",
                 "key": "ctrl+2",
                 "linux": "ctrl+2",
                 "when": "editorTextFocus"
             },
             {
-                "command": "terminee.sendTo3",
+                "command": "terminee.sendToCammie",
                 "key": "ctrl+3",
                 "linux": "ctrl+3",
                 "when": "editorTextFocus"
             },
             {
-                "command": "terminee.sendTo4",
+                "command": "terminee.sendToDaresu",
                 "key": "ctrl+4",
                 "linux": "ctrl+4",
                 "when": "editorTextFocus"
             },
             {
-                "command": "terminee.sendTo5",
+                "command": "terminee.sendToFreya",
                 "key": "ctrl+5",
                 "linux": "ctrl+5",
                 "when": "editorTextFocus"
