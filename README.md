@@ -12,14 +12,15 @@ A terminal nee-jan to help you sending commands to the terminals.
 
 This extension contributes the following settings:
 
-* `ctrl+t, ctrl+1`: send command to terminal 1
-* `ctrl+t, ctrl+2`: send command to terminal 2
-* `ctrl+t, ctrl+3`: send command to terminal 3
-* `ctrl+t, ctrl+4`: send command to terminal 4
-* `ctrl+t, ctrl+5`: send command to terminal 5
+* `ctrl+1`: send command to terminal 1
+* `ctrl+2`: send command to terminal 2
+* `ctrl+3`: send command to terminal 3
+* `ctrl+4`: send command to terminal 4
+* `ctrl+5`: send command to terminal 5
 
 ## Known Issues
 
 
 ## Release Notes
 
+0.1.0   first workable version.

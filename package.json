@@ -71,5 +71,13 @@
         "tslint": "^5.8.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
-    }
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JackKCWong/terminee"
+    },
+    "author": {
+        "name": "jackkcwong"
+    },
+    "license": "Do whatever you want"
 }
