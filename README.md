@@ -4,7 +4,7 @@ A terminal nee-san to help you sending commands to the terminals.
 
 ## Features
 
-1. Send current line or selected text to the named terminal.
+1. Send current line or selected text to the terminals.
 2. Can manage up to 5 terminals.
 
 
@@ -12,11 +12,11 @@ A terminal nee-san to help you sending commands to the terminals.
 
 This extension contributes the following settings:
 
-* `ctrl+1`: send command to terminal *A*suna
-* `ctrl+2`: send command to terminal *B*alalaika
-* `ctrl+3`: send command to terminal *C*ammie
-* `ctrl+4`: send command to terminal *D*aresu
-* `ctrl+5`: send command to terminal *F*reya
+* `ctrl+1`: send command to 1st terminal
+* `ctrl+2`: send command to 2nd terminal
+* `ctrl+3`: send command to 3rd terminal
+* `ctrl+4`: send command to 4th terminal
+* `ctrl+5`: send command to 5th terminal
 
 ## Known Issues
 
@@ -24,4 +24,7 @@ This extension contributes the following settings:
 ## Release Notes
 
 0.1.0   first workable version.
+
 0.1.1   rename the terminals.
+
+1.0.0   move to vscode 1.30.x.
