@@ -1,11 +1,11 @@
 {
     "name": "terminee",
     "displayName": "terminee",
-    "description": "A terminal nee-san to help you with terminals.",
-    "version": "0.1.1",
+    "description": "A terminal util to help you with terminals.",
+    "version": "1.0.0",
     "publisher": "JackKCWong",
     "engines": {
-        "vscode": "^1.23.0"
+        "vscode": "^1.30.0"
     },
     "categories": [
         "Other"
@@ -19,7 +19,7 @@
     ],
     "main": "./out/extension",
     "contributes": {
-        "keybindings":[
+        "keybindings": [
             {
                 "command": "terminee.sendToAsuna",
                 "key": "ctrl+1",
@@ -61,7 +61,7 @@
     },
     "devDependencies": {
         "typescript": "^2.6.1",
-        "vscode": "^1.1.6",
+        "vscode": "^1.1.26",
         "tslint": "^5.8.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"
