@@ -28,3 +28,5 @@ This extension contributes the following settings:
 0.1.1   rename the terminals.
 
 1.0.0   move to vscode 1.30.x.
+
+1.1.0   add terminal automatically.
