@@ -2,7 +2,7 @@
     "name": "terminee",
     "displayName": "terminee",
     "description": "A terminal util to help you with terminals.",
-    "version": "1.1.0",
+    "version": "1.1.2",
     "publisher": "JackKCWong",
     "engines": {
         "vscode": "^1.30.0"
@@ -61,7 +61,7 @@
     },
     "devDependencies": {
         "typescript": "^2.6.1",
-        "vscode": "^1.1.26",
+        "vscode": "^1.1.30",
         "tslint": "^5.8.0",
         "@types/node": "^7.0.43",
         "@types/mocha": "^2.2.42"

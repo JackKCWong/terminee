@@ -1,6 +1,6 @@
 # terminee README
 
-A terminal nee-san to help you sending commands to the terminals.
+A terminal utility to help you sending commands to the terminals.
 
 ## Features
 
@@ -30,3 +30,5 @@ This extension contributes the following settings:
 1.0.0   move to vscode 1.30.x.
 
 1.1.0   add terminal automatically.
+
+1.1.2   upgrade dep with security vulnerability.
